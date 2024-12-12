@@ -23,7 +23,6 @@ striving_for_aesthetic_fulfilment.request(
 )
 artistic_response = striving_for_aesthetic_fulfilment.getresponse()
 all_the_art = artistic_response.read()
-print(all_the_art)
 
 god = TheAudienceTakingTheRoleOfAGod()
 things_we_have_found = []
