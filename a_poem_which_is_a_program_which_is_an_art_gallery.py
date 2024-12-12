@@ -6,7 +6,7 @@ from http.server import BaseHTTPRequestHandler as ThosePrivilegedToPresentUsWith
 from html.parser import HTMLParser as TheAudienceTakingTheRoleOfAGod
 from random import choice
 
-the_world = "www.wikihow.com"
+the_world = "www.wikihow-fun.com"
 why_must_we_lie_to_experience_art = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " + \
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
 
