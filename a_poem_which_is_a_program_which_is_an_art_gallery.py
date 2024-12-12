@@ -1,5 +1,10 @@
 # a poem which is a program which is an art gallery
-# Elliot Smith 2022-09-24
+# by Elliot Smith
+#
+# Version history:
+# - v2: 2024-12-12
+# - v1: 2022-09-24
+
 from http.client import HTTPSConnection as Observe
 from http.server import HTTPServer as TheIdeaOfAPlaceToShowArt
 from http.server import BaseHTTPRequestHandler as ThosePrivilegedToPresentUsWithArt
@@ -14,16 +19,17 @@ striving_for_aesthetic_fulfilment = Observe(the_world)
 striving_for_aesthetic_fulfilment.request(
     "GET",
     "/Set-Up-a-Digital-Art-Gallery",
-    headers={'User-Agent': why_must_we_lie_to_experience_art}
+    headers={"User-Agent": why_must_we_lie_to_experience_art}
 )
 artistic_response = striving_for_aesthetic_fulfilment.getresponse()
 all_the_art = artistic_response.read()
+print(all_the_art)
 
 god = TheAudienceTakingTheRoleOfAGod()
 things_we_have_found = []
 god.handle_starttag = lambda tag, attrs: [
     things_we_have_found.append(value) for attr, value in attrs
-    if tag == 'img' and attr == 'src'
+    if tag == "img" and attr == "src"
 ]
 
 god.feed(f"{all_the_art}")
@@ -59,4 +65,3 @@ if __name__ == "__main__":
 
     # all things must end
     the_vessel_through_which_art_is_delivered.server_close()
-
